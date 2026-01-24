@@ -182,7 +182,15 @@ export default function RouletteClient() {
 
             {/* DIREITA */}
             <div className="col">
-              <div className="wheelStage">
+              <div
+  className="wheelStage"
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  }}
+>
+
                 <div className="pointer" />
 
                 <div
